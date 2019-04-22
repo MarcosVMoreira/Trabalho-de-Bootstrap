@@ -1,3 +1,4 @@
+/* Inicio Login */
 #inputLogin {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
@@ -9,15 +10,55 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+/* Fim Login */
 
+/* Inicio Barra Busca */
+#inputBusca {
+    margin-right: -1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
+#btnBusca {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* Fim Barra Busca */
 
+/* Inicio Navbar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5rem 1rem;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 14pt;
+}
+  
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.nav .active {
+    background-color: #4CAF50;
+}
 
-  /* home */
+/* Fim Navbar */
+
+/* Inicio Home */
 
 #barraLateral {
   height:100vh;
   background-color: #42e979;
 }
 
-  /* fim home */
+/* Fim Home */
