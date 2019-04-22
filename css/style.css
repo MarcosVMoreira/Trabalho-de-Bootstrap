@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+    margin-top: 10px;
+}
+
 /* Inicio Login */
 #inputLogin {
     margin-bottom: -1px;
@@ -29,7 +33,7 @@
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0.5rem 1rem;
+    margin: 0;
     overflow: hidden;
     background-color: #333;
     font-size: 14pt;
@@ -51,14 +55,20 @@ ul {
 .nav .active {
     background-color: #4CAF50;
 }
-
 /* Fim Navbar */
 
 /* Inicio Home */
-
 #barraLateral {
   height:100vh;
-  background-color: #42e979;
+  background-color: #4CAF50;
 }
 
+.texto {
+    font-size: 14pt;
+}
+
+.subTexto {
+    font-size: 14pt;
+    margin-left: 1rem;
+}
 /* Fim Home */
