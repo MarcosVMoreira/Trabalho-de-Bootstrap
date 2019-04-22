@@ -9,3 +9,15 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+
+
+
+
+  /* home */
+
+#barraLateral {
+  height:100vh;
+  background-color: #42e979;
+}
+
+  /* fim home */
