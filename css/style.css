@@ -2,6 +2,11 @@ h1, h2, h3, h4 {
     margin-top: 10px;
 }
 
+.btnVerde {
+    background-color: #4CAF50;
+    color: white
+}
+
 /* Inicio Login */
 #inputLogin {
     margin-bottom: -1px;
@@ -64,11 +69,22 @@ ul {
 }
 
 .texto {
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .subTexto {
-    font-size: 14pt;
+    font-size: 12pt;
     margin-left: 1rem;
 }
+
+.justificar {
+    text-align: justify;
+}
 /* Fim Home */
+
+/* Inicio Institutos */
+.alinhaDireita {
+    text-align: right;
+}
+
+/* Fim Institutos */
