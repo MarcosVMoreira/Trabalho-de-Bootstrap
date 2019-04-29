@@ -18,48 +18,57 @@
             </form>
         </nav>
         <ul class="nav">
-            <li> <a href="#">Principal</a> </li>
-            <li> <a href="#">Institutos</a> </li>
-            <li class="active"> <a href="#">Departamentos</a> </li>
-            <li> <a href="#">Cursos</a> </li>
-            <li> <a href="#">Disciplinas</a> </li>
-            <li> <a href="#">Professores</a> </li>
-            <li> <a href="#">Alunos</a> </li>
-            <li> <a href="#">Contato</a> </li>
-            <li> <a href="#">Dúvidas</a></li>
+            <li> <a href="index.html">Principal</a> </li>
+            <li> <a href="institutos.html">Institutos</a> </li>
+            <li class="active"> <a href="departamentos.html">Departamentos</a> </li>
+            <li> <a href="cursos.html">Cursos</a> </li>
+            <li> <a href="disciplinas.html">Disciplinas</a> </li>
+            <li> <a href="professores.html">Professores</a> </li>
+            <li> <a href="alunos.html">Alunos</a> </li>
+            <li> <a href="contato.html">Contato</a> </li>
+            <li> <a href="duvidas.html">Dúvidas</a></li>
         </ul>
 
         <div class="row col-md-12">
-            <div class="col-md-2 mt-3" id="barraLateral">
-                <h1>Principal</h1>
+            <div class="col-md-3 mt-3" id="barraLateral">
+                <h2>Departamentos</h2>
                 <hr>
-                Links relacionados a universidade
+                <a class="subTexto" href="novoDepartamento.html">Criar Novo Departamento</a>
             </div>
-            <div class="col-md-10 mt-3">
-                <h1>Matricular aluno em disciplina</h1>
-                <div class="row">
-                    <div class="col-md-1">
-                        Aluno
-                    </div>
-                    <div class="col-md-4">
-                        <input type="text" class="form-control" name="aluno" id="aluno"/>
-                    </div>
+            <div class="col-md-9 mt-3">
+                <h2>Lista de Departamentos</h2>
+                <div class="col-md-10 col-sm-12">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Telefone</th>
+                                <th scope="col">Universidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Computação</th>
+                                <td>35 12345678</td>
+                                <td>IFSULDEMINAS 1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Matemática</th>
+                                <td>35 87654321</td>
+                                <td>IFSULDEMINAS 2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Elétrica</th>
+                                <td>35 81726354</td>
+                                <td>IFSULDEMINAS 3</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="row">
-                        <div class="col-md-1">
-                            Disciplina
-                        </div>
-                        <div class="col-md-4 pt-2">
-                            <input type="text" class="form-control" name="disciplina" id="disciplina"/>
-                        </div>
-                    </div>
             </div>
         </div>
 
     </div>
-
-
-
 </body>
 
 </html>

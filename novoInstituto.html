@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light">
+            <img class="img-fluid" src="img/logo_horizontal.png">
+            <form class="form-inline">
+                <input id="inputBusca" class="form-control" type="search" placeholder="Procurar" aria-label="Search">
+                <button id="btnBusca" class="btn btn-dark" type="submit">Ir</button>
+            </form>
+        </nav>
+        <ul class="nav">
+            <li> <a href="index.html">Principal</a> </li>
+            <li class="active"> <a href="institutos.html">Institutos</a> </li>
+            <li> <a href="departamentos.html">Departamentos</a> </li>
+            <li> <a href="cursos.html">Cursos</a> </li>
+            <li> <a href="disciplinas.html">Disciplinas</a> </li>
+            <li> <a href="professores.html">Professores</a> </li>
+            <li> <a href="alunos.html">Alunos</a> </li>
+            <li> <a href="contato.html">Contato</a> </li>
+            <li> <a href="duvidas.html">Dúvidas</a></li>
+        </ul>
+
+        <div class="row col-md-12">
+            <div class="col-md-3 mt-3" id="barraLateral">
+                <h2>Institutos</h2>
+                <hr>
+                <a class="subTexto" href="novoInstituto.html">Criar Novo Instituto</a>
+            </div>
+            <div class="col-md-9 mt-3">
+                <h2>Novo Instituto</h2>
+                <div class="texto">
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-md-1 col-sm-12 col-form-label">Nome</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-1 col-sm-12 col-form-label">Cidade</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                            <label class="col-md-1 col-sm-12 col-form-label">Estado</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-1 col-sm-12 col-form-label">Rua</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                            <label class="col-md-1 col-sm-12 col-form-label">Número</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-1 col-sm-12 col-form-label">Bairro</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                            <label class="col-md-1 col-sm-12 col-form-label">CEP</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row col-sm-3">
+                            <button class="btn btn-block btnVerde">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
