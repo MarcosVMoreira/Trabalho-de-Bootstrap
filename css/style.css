@@ -107,3 +107,14 @@ ul {
     border-color: #333;
 }
 
+/* Inicio Contato */
+#foto{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+
+/* Fim Contato */
