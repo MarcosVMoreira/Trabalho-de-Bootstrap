@@ -23,23 +23,29 @@
             <li> <a href="departamentos.html">Departamentos</a> </li>
             <li> <a href="cursos.html">Cursos</a> </li>
             <li> <a href="disciplinas.html">Disciplinas</a> </li>
-            <li class="active"> <a href="professores.html">Professores</a> </li>
-            <li> <a href="alunos.html">Alunos</a> </li>
+            <li> <a href="professores.html">Professores</a> </li>
+            <li class="active"> <a href="alunos.html">Alunos</a> </li>
             <li> <a href="contato.html">Contato</a> </li>
             <li> <a href="duvidas.html">Dúvidas</a></li>
         </ul>
 
         <div class="row col-md-12">
             <div class="col-md-3 mt-3" id="barraLateral">
-                <h2>Professores</h2>
+                <h2>Alunos</h2>
                 <hr>
-                <a class="subTexto" href="novaDisciplina.html">Cadastrar novo professor</a>
+                <a class="subTexto" href="novoDepartamento.html">Cadastrar novo aluno</a>
             </div>
             <div class="col-md-9 mt-3">
-                <h2>Novo Professor</h2>
+                <h2>Novo Aluno</h2>
                 <div class="texto">
                     <div class="texto">
                         <form>
+                            <div class="form-group row">
+                                <label class="col-md-2 col-sm-12 col-form-label">Matrícula</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
                             <div class="form-group row">
                                 <label class="col-md-2 col-sm-12 col-form-label">Nome</label>
                                 <div class="col-sm-4">
@@ -53,30 +59,42 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-2 col-sm-12 col-form-label">Telefone</label>
+                                    <label class="col-md-2 col-sm-12 col-form-label">Telefone</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            <div class="form-group row">
+                                    <label class="col-md-2 col-sm-12 col-form-label">Endereco</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control">
+                                    </div>
+                            </div>
+                                <div class="form-group row">
+                                    <label class="col-md-2 col-sm-12 col-form-label">Bolsita</label>
                                 <div class="col-sm-4">
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-2 col-sm-12 col-form-label">Coordenador</label>
-                                <div class="col-sm-4">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-2 col-sm-12 col-form-label">Departamento</label>
+                                <label class="col-md-2 col-sm-12 col-form-label">Curso</label>
                                 <div class="col-sm-4">
                                     <select class="form-control">
-                                        <option>Computação</option>
-                                        <option>Elétrica</option>
-                                        <option>Matemática</option>
+                                        <option>Engenharia de Computação</option>
+                                        <option>Biologia</option>
+                                        <option>Geografia</option>
                                     </select>
                                 </div>
                             </div>
+                            <div class="form-group row">
+                                <label class="col-md-2 col-sm-12 col-form-label">Semestre</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>`
                             <div class="row col-sm-3">
-                                <button class="btn btn-block btnVerde">Salvar</button>
-                            </div>
+                                    <button class="btn btn-block btnVerde">Salvar</button>
+                                </div>
                         </form>
                     </div>
                 </div>
@@ -85,5 +103,4 @@
 
     </div>
 </body>
-
 </html>
